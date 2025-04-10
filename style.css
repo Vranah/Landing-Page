@@ -119,6 +119,7 @@ a   {
     align-items: center;
     height: 600px;
     width: 75%;
+    gap: 50px;
 }
 
 .info h2 {
@@ -132,15 +133,29 @@ a   {
 .cards-container {
     width: 75%;
     flex: 1 0 550px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 .card {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+.card-pic {
     height: 200px;
     width: 200px;
     border: 3px solid #3882F6;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
 }
+
+.card-txt {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+

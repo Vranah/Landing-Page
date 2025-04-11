@@ -1,6 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +31,7 @@ a   {
     justify-content: center;
     align-items: center;
     height: 75px;
-    width: 75%;
+    width: 65%;
 
 }
 
@@ -60,7 +59,7 @@ a   {
     justify-content: space-between;
     align-items: center;
     height: 600px;
-    width: 75%;
+    width: 65%;
     gap: 50px;
 }
 
@@ -89,7 +88,6 @@ a   {
 .hero-content p {
     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 900;
 }
 
 .hero-content button {
@@ -159,3 +157,109 @@ a   {
     text-align: center;
 }
 
+.quote-container {
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1200px;
+    height: 600px;
+    width: 75%;
+    gap: 15px;
+}
+
+.quote-txt {
+    max-width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+p.quote-txt {
+    padding: 100px;
+    margin: 0;
+}
+   
+
+.quote-name {
+    max-width: 1000px;
+    align-self: flex-end;
+    margin-right: 125px;
+}
+
+.call-container {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1200px;
+    height: 150px;
+    width: 75%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+.call-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1000px;
+    height: 100px;
+}
+
+.call-txt-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 100%;
+    height: 100%;
+    
+}
+.call-header {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.call-txt {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-btn {
+    flex-basis: 140px;
+    height: 30px;
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 75px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
